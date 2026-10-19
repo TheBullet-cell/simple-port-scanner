@@ -7,8 +7,6 @@ def scan_port(ip, port):
     sock.close()
     return result == 0
 
-# Made by Amamra Abdo
-
 target = input("Enter target IP (e.g, 127.0.0.1): ")
 ports = [21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 3389]
 
